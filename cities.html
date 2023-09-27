@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <title>Booting up front end</title>
-  <h1>Visit Cities with Naveen Kumar Kottidi</h1>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -24,6 +24,24 @@
 </style>
   </head>
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">A Few Cities</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="basic.html">basic</a>
+          <a class="nav-link" href="advanced.html">advanced</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <h4>Visit Cities with Naveen Kumar Kottidi</h4>
+  <hr>
+  <br>
+
     <div class="container"> 
     <div class="row" style="background-color: rgb(111, 170, 254);">
         <div class="col-sm-2">K</div>
@@ -145,7 +163,43 @@
     </div>
   </div>
   </div>
+  <hr>
   <br>
   <br>
+  <div class="container">
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+      <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <br>
+  <h4>My Form</h4>
+  <form>
+      <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" class="form-control" id="city" placeholder="Enter your city">
+      </div>
+      <div class="form-check">
+          <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" id="newsletter"> Sign up for newsletter?
+          </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<br>
+<br>
 </body>
+
 </html>
